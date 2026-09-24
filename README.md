@@ -1,12 +1,12 @@
-## Electricity Bill Prediction using Ridge Regression
+# Electricity Bill Prediction using Ridge Regression
 
-Project Overview
+## Project Overview
 
 This project predicts electricity bills using machine learning.
 
 Linear Regression and Ridge Regression are implemented and compared using MAE, RMSE, and R². Different alpha values are tested, and 5-Fold Cross-Validation is used to select the best alpha for the final Ridge Regression model.
 
-Dataset
+## Dataset
 
 The dataset contains information about:
 
@@ -17,29 +17,30 @@ The dataset contains information about:
 * Company
 * Electricity bill
 
-Machine Learning Methods
+## Machine Learning Methods
 
 * Linear Regression
 * Ridge Regression
 * Alpha Testing
 * 5-Fold Cross-Validation
 
-Data Preprocessing
+## Data Preprocessing
 
 * Numerical feature scaling using StandardScaler
 * Categorical feature encoding using OneHotEncoder
 * Train-test split
 
-Evaluation Metrics
+## Evaluation Metrics
 
 * Mean Absolute Error (MAE)
 * Root Mean Squared Error (RMSE)
 * R² Score
 
-Project Flow
+## Project Flow
 
 Dataset → Preprocessing → Linear Regression → Ridge Regression → Model Comparison → Alpha Testing → 5-Fold Cross-Validation → Best Alpha → Final Ridge Model → Evaluation → Coefficient Analysis → Actual vs Predicted
-Tools and Libraries
+
+## Tools and Libraries
 
 * Python
 * Pandas
@@ -47,3 +48,4 @@ Tools and Libraries
 * Scikit-learn
 * Matplotlib
 * Jupyter Notebook
+
