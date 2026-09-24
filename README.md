@@ -1,4 +1,4 @@
-Electricity Bill Prediction using Ridge Regression
+## Electricity Bill Prediction using Ridge Regression
 
 Project Overview
 
